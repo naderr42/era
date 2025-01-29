@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>استخارة</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            direction: rtl;
+            text-align: center;
+            background-color: #f8f9fa;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        #dua {
+            display: none;
+            margin-top: 20px;
+            background-color: #e9ecef;
+            padding: 15px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>صلاة الاستخارة</h1>
+        <p>صلاة الاستخارة هي صلاة ركعتين من غير الفريضة، ثم الدعاء بالدعاء الوارد عن النبي ﷺ.</p>
+        <h3>حديث الاستخارة</h3>
+        <p>قال النبي ﷺ: "إذا همَّ أحدُكم بالأمرِ، فليركعْ ركعتَينِ من غيرِ الفريضةِ، ثم ليقلْ: اللَّهُمَّ إنِّي أَسْتَخِيرُكَ بِعِلْمِكَ..."</p>
+        <button onclick="showDua()">اضغط هنا لرؤية دعاء الاستخارة</button>
+        <div id="dua">
+            <h3>دعاء الاستخارة</h3>
+            <p>اللَّهُمَّ إنِّي أَسْتَخِيرُكَ بِعِلْمِكَ، وأَسْتَقْدِرُكَ بِقُدْرَتِكَ، وَأَسْأَلُكَ مِنْ فَضْلِكَ العَظِيمِ، فَإِنَّكَ تَقْدِرُ وَلَا أَقْدِرُ، وَتَعْلَمُ وَلَا أَعْلَمُ، وَأَنْتَ عَلَّامُ الغُيُوبِ...</p>
+        </div>
+    </div>
+    
+    <script>
+        function showDua() {
+            document.getElementById("dua").style.display = "block";
+        }
+    </script>
+</body>
+</html>
